@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -51,8 +50,8 @@
     <dimen name="range_month_day_label_text_size">12sp</dimen>
     <dimen name="range_day_number_select_circle_radius">16dp</dimen>
     <dimen name="range_month_select_circle_radius">45dp</dimen>
-    <dimen name="range_selected_date_year_size">25dp</dimen>
-    <dimen name="range_selected_date_day_size">25dp</dimen>
+    <dimen name="range_selected_date_year_size">21dp</dimen>
+    <dimen name="range_selected_date_day_size">21dp</dimen>
     <dimen name="range_selected_date_month_size">25dp</dimen>
     <dimen name="range_date_picker_header_text_size">12dp</dimen>
     <dimen name="range_time_picker_header_text_size">12sp</dimen>

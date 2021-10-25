@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
      Copyright (C) 2013 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
@@ -17,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Label for button to confirm chosen date or time [CHAR LIMIT=30] -->
-    <string name="range_done_label">Done</string>
+    <string name="range_done_label">Xong</string>
     <string name="range_ok">@android:string/ok</string>
     <string name="range_cancel">@android:string/cancel</string>
     <!--
@@ -33,9 +32,9 @@
     -->
     <string name="range_minute_picker_description">Minutes circular slider</string>
     <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
-    <string name="range_select_hours">Select hours</string>
+    <string name="range_select_hours">Chọn giờ</string>
     <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
-    <string name="range_select_minutes">Select minutes</string>
+    <string name="range_select_minutes">Chọn phút</string>
 
     <!--
         Content description for the month and day selector in the date picker, which displays
@@ -48,15 +47,15 @@
         a scrolling, vertical list of years.
         [CHAR LIMIT=50]
      -->
-    <string name="range_year_picker_description">Year list</string>
+    <string name="range_year_picker_description">Danh sách năm</string>
     <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
-    <string name="range_select_day">Select month and day</string>
+    <string name="range_select_day">Chọn tháng và ngày</string>
     <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
-    <string name="range_select_year">Select year</string>
+    <string name="range_select_year">Chọn năm</string>
     <!-- Accessibility description for the item that is currently selected. -->
-    <string name="range_item_is_selected"><xliff:g id="item" example="2013">%1$s</xliff:g> selected</string>
+    <string name="range_item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> đã chọn</string>
     <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
-    <string name="range_deleted_key"><xliff:g id="key" example="4">%1$s</xliff:g> deleted</string>
+    <string name="range_deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> đã xóa</string>
 
     <!-- DO NOT TRANSLATE -->
     <string name="range_time_placeholder" translatable="false">--</string>
@@ -70,6 +69,6 @@
 
     <!-- DO NOT TRANSLATE -->
     <string name="range_day_of_week_label_typeface" translatable="false">sans-serif</string>
-    <string name="range_from">FROM</string>
-    <string name="range_to">TO</string>
+    <string name="range_from">Từ</string>
+    <string name="range_to">Đến</string>
 </resources>
