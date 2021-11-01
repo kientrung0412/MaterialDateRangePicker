@@ -460,14 +460,8 @@ public abstract class DayPickerView extends ListView implements OnScrollListener
     @SuppressWarnings("deprecation")
     public void onInitializeAccessibilityNodeInfo(@NonNull AccessibilityNodeInfo info) {
         super.onInitializeAccessibilityNodeInfo(info);
-        if(Build.VERSION.SDK_INT >= 21) {
-            info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_BACKWARD);
-            info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_FORWARD);
-        }
-        else {
-            info.addAction(AccessibilityNodeInfo.ACTION_SCROLL_FORWARD);
-            info.addAction(AccessibilityNodeInfo.ACTION_SCROLL_BACKWARD);
-        }
+        info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_BACKWARD);
+        info.addAction(AccessibilityNodeInfo.AccessibilityAction.ACTION_SCROLL_FORWARD);
     }
 
     /**

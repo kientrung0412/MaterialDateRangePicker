@@ -23,6 +23,7 @@ import android.content.DialogInterface;
 import android.content.res.Resources;
 import android.os.Bundle;
 import android.text.format.DateUtils;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
@@ -622,9 +623,11 @@ public class DatePickerDialog extends DialogFragment implements
     }
 
     private void updateDisplay(boolean announce) {
+        Log.d("Trungnk", "updateDisplay() called with: announce = [" + announce + "]");
         if (mDayOfWeekView != null) {
-            mDayOfWeekView.setText(mCalendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.LONG,
+            mDayOfWeekView.setText(mCalendar.getDisplayName(Calendar.DAY_OF_WEEK, Calendar.SHORT,
                     Locale.getDefault()).toUpperCase(Locale.getDefault()));
+            Log.d("Trungnk", "updateDisplay: " + mDayOfWeekView.getText().toString());
         }
 
         mSelectedMonthTextView.setText(mCalendar.getDisplayName(Calendar.MONTH, Calendar.SHORT,
