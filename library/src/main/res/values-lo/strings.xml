@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="range_done_label">ສຳເລັດແລ້ວ</string>
+    <string name="range_ok">ຖືກແລ້ວ</string>
+    <string name="range_cancel">ຢົກເລີກ</string>
+    <string name="range_hour_picker_description">ຕົວເລື່ອນວົງມົນຊົ່ວໂມງ</string>
+    <string name="range_minute_picker_description">ນາທີເລື່ອນວົງ</string>
+    <string name="range_select_hours">ເລືອກຊົ່ວໂມງ</string>
+    <string name="range_select_minutes">ເລືອກນາທີ</string>
+    <string name="range_day_picker_description">ຕາຂ່າຍເດືອນຂອງມື້</string>
+    <string name="range_year_picker_description">ບັນຊີລາຍຊື່ປີ</string>
+    <string name="range_select_day">ເລືອກເດືອນແລະມື້</string>
+    <string name="range_select_year">ເລືອກປີ</string>
+    <string name="range_from">ຈາກ</string>
+    <string name="range_to">ໄປສູ່</string>
+</resources>

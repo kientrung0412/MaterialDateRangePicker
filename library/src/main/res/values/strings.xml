@@ -53,9 +53,9 @@
     <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
     <string name="range_select_year">Chọn năm</string>
     <!-- Accessibility description for the item that is currently selected. -->
-    <string name="range_item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> đã chọn</string>
+    <string name="range_item_is_selected" translatable="false"><xliff:g example="2013" id="item">%1$s</xliff:g> đã chọn</string>
     <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
-    <string name="range_deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> đã xóa</string>
+    <string name="range_deleted_key" translatable="false"><xliff:g example="4" id="key">%1$s</xliff:g> đã xóa</string>
 
     <!-- DO NOT TRANSLATE -->
     <string name="range_time_placeholder" translatable="false">--</string>
